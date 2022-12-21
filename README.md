@@ -146,9 +146,9 @@ While the embedded Tomcat server recognizes and reloads changes
 to the JSP files in the webapp folder, we will need to stop the server
 and restart it for changes made to the servlet class.
 
-1. Stop executing the web application by pressing the red stop icon on the Maven toolbar:   
-   ![stop Tomcat server](https://curriculum-content.s3.amazonaws.com/6036/java-mod-5-servlet-class/stop_server.png)  
-2. Double-click on **tomcat9:run** to restart the web application:
+1. Stop executing the web application by pressing the red stop icon on the Maven toolbar:    
+   ![stop Tomcat server](https://curriculum-content.s3.amazonaws.com/6036/java-mod-5-servlet-class/stop_server.png)
+2. Double-click on **tomcat9:run** to restart the web application:       
    ![tomcat plugin](https://curriculum-content.s3.amazonaws.com/6036/create-webapp-project/run_tomcat.png)
 
 Now we should be able to run the servlet using the URL set in `@WebServlet` annotation.
